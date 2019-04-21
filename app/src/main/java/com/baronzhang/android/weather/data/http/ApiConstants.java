@@ -8,7 +8,9 @@ public final class ApiConstants {
 
     static final String MI_WEATHER_API_HOST = "http://weatherapi.market.xiaomi.com/wtr-v2/";
     static final String KNOW_WEATHER_API_HOST = "http://knowweather.duapp.com/";
-    static final String ENVIRONMENT_CLOUD_WEATHER_API_HOST = "http://service.envicloud.cn:8082/";
+//    http://localhost:8080/cityAirLive/10110110
+//    static final String ENVIRONMENT_CLOUD_WEATHER_API_HOST = "http://service.envicloud.cn:8082/";
+    static final String ENVIRONMENT_CLOUD_WEATHER_API_HOST = "http://192.168.43.251:8080";
 
     public static final int WEATHER_DATA_SOURCE_TYPE_KNOW = 1;
     public static final int WEATHER_DATA_SOURCE_TYPE_MI = 2;
